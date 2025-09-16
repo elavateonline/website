@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary-background: #e8c15d;
+    --primary-foreground: #000000;
+    --primary-light: #f5e67a;
+    --primary-dark: #caae65;
+
+    /* Secondary Colors */
+    --secondary-background: #ffffff;
+    --secondary-foreground: #000000;
+    --secondary-light: #fafafa;
+    --secondary-dark: #333333;
+
+    /* Accent Colors */
+    --accent-background: #0f0f0f;
+    --accent-foreground: #fafafa;
+    --accent-light: #1e1e1e;
+    --accent-dark: #000000;
+
+    /* Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #333333;
+    --text-muted: #8a8a8a;
+    --text-light: #b8b2b2;
+    --text-accent: #caae65;
+    --text-white: #ffffff;
+    --text-white-muted: #ffffff66;
+
+    /* Background Colors */
+    --bg-main: #ffffff;
+    --bg-dark: #0f0f0f;
+    --bg-card: #1e1e1e;
+    --bg-overlay: #0000000c;
+    --bg-highlight: #fffce7;
+
+    /* Border Colors */
+    --border-primary: #ffffff1e;
+    --border-secondary: #262626;
+    --border-accent: #f6df79;
+    --border-light: #ffffff11;
+    --border-dark: #00000033;
+
+    /* Typography Variables */
+    --font-size-xs: 14px;
+    --font-size-sm: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+    --font-size-2xl: 40px;
+    --font-size-3xl: 48px;
+    --font-size-4xl: 64px;
+    --font-size-5xl: 72px;
+
+    /* Font Weight Variables */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Line Height Variables */
+    --line-height-tight: 15px;
+    --line-height-normal: 22px;
+    --line-height-relaxed: 28px;
+    --line-height-loose: 33px;
+
+    /* Spacing Variables */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 18px;
+    --spacing-xl: 24px;
+    --spacing-2xl: 30px;
+    --spacing-3xl: 40px;
+    --spacing-4xl: 60px;
+
+    /* Border Radius Variables */
+    --radius-sm: 5px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-2xl: 24px;
+    --radius-full: 60px;
+
+    /* Component-specific Variables */
+    --header-border: var(--border-primary);
+    --button-primary-bg: var(--primary-background);
+    --button-secondary-bg: var(--secondary-background);
+    --card-bg: var(--bg-card);
+    --input-bg: var(--bg-card);
+    --input-border: var(--border-secondary);
+  }
+}
