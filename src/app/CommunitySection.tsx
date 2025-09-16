@@ -92,9 +92,9 @@ const CommunitySection = () => {
             {/* Join Button */}
             <Button
               onClick={handleJoinUs}
-              className="w-auto px-[34px] py-[18px] bg-white rounded-[16px] shadow-[-1px_1px_3px_#0000003f]"
+              className="w-auto px-[20px] py-[10px] bg-white rounded-[16px] shadow-[-1px_1px_3px_#0000003f]"
             >
-              <span className="text-[24px] font-medium leading-[1.4] text-center text-black font-['Nunito_Sans']">
+              <span className="text-[20px] font-medium leading-[1.4] text-center text-black font-['Nunito_Sans']">
                 Join Us
               </span>
             </Button>

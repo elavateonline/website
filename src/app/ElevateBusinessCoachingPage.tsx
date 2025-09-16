@@ -24,7 +24,7 @@ const ElevateBusinessCoachingPage = () => {
       <TargetAudienceSection />
       <CommunitySection />
       {/* <BookingSection /> */}
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
       <NewsletterSection />
       <div className="w-full bg-[#12141d] py-[34px] px-[34px] mt-[-142px]">
         <Footer />
