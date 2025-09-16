@@ -26,11 +26,11 @@ const TargetAudienceSection = () => {
   ]
 
   return (
-    <section className="w-full bg-[#1f2020] py-[80px]">
+    <section className="w-full bg-[#1f2020] py-[80px] pt-5">
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col justify-end items-center w-full">
           {/* Header */}
-          <div className="flex flex-row justify-center items-start w-full px-[56px] mt-[94px]">
+          <div className="flex flex-row justify-center items-start w-full px-[56px] sm:mt-[50px] lg:mt-[90px]">
             <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-bold leading-[1.4] text-left text-white font-['Nunito_Sans'] w-auto mb-[48px]">
               Who Is This For?
             </h2>

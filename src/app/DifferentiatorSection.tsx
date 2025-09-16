@@ -1,11 +1,11 @@
 'use client';
 const DifferentiatorSection = () => {
   return (
-    <section className="w-full bg-[#1f2020] py-[32px] relative" id="about-us-section">
+    <section className="w-full bg-[#1f2020] py-[32px] sm:py-[10px] relative" id="about-us-section">
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-[60px] justify-start items-center">
           {/* Header Content */}
-          <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1348px] mt-[114px] gap-8 lg:gap-0">
+          <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1348px] sm:mt-[60px] lg:mt-[144px] gap-8 sm:gap-2 lg:gap-0">
             <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold leading-[1.25] text-left text-white font-['Nunito_Sans'] w-full lg:w-[34%]">
               What Makes Elevate Different?
             </h2>

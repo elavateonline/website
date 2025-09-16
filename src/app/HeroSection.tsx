@@ -37,7 +37,7 @@ const HeroSection = () => {
               
               <Button
                 onClick={handleJoinBatch}
-                className="flex items-center gap-[6px] px-[20px] pr-[40px] py-[10px] bg-[#e8c15d] border border-solid border-transparent rounded-[16px] shadow-[-1px_1px_3px_#0000003f]"
+                className="flex items-center gap-[6px] px-[20px] pr-[20px] py-[10px] bg-[#e8c15d] border border-solid border-transparent rounded-[16px] shadow-[-1px_1px_3px_#0000003f]"
                 style={{
                   background: 'linear-gradient(180deg, #f6df79 0%, #e8c534 50%, #e1b810 100%)',
                   border: '1px solid transparent',
