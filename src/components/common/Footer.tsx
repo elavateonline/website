@@ -25,6 +25,14 @@ const Footer = () => {
               Office #2220, 22 floor , Tower Plaza,  Sheikh Zayed Road, Dubai ,United Arab Emirates
             </p>
 
+            {/* Phone Number */}
+            <Link 
+              href="tel:+971585814067"
+              className="text-sm font-normal leading-relaxed text-left underline text-gray-400 font-['Nunito_Sans'] mt-5 hover:text-white transition-colors"
+            >
+              +971585814067
+            </Link>
+
             {/* Email */}
             <Link 
               href="mailto:info@elevatebusiness360.com"
@@ -42,6 +50,7 @@ const Footer = () => {
             >
               www.elevatebusiness360.com
             </Link>
+            
 
             {/* Social Media Icons */}
             <div className="flex flex-row justify-start items-center w-full max-w-[66%] mt-5 gap-4">
