@@ -22,7 +22,7 @@ const Footer = () => {
 
             {/* Address */}
             <p className="text-xs font-normal leading-tight text-left text-white font-['Nunito_Sans'] mt-5">
-              Office #2220, 22 floor , Tower Plaza,  Sheikh Zayed Road, Dubai ,United Arab Emirates
+              22 floor , Tower Plaza,  Sheikh Zayed Road, Dubai ,United Arab Emirates
             </p>
 
             {/* Phone Number */}
