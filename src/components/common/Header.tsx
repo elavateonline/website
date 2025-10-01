@@ -78,7 +78,7 @@ const Header = () => {
               {/* Phone Number */}
               <div className="flex flex-row justify-center items-center w-full lg:w-auto py-[6px]">
                 <span className="text-lg font-semibold leading-relaxed text-left text-text-secondary font-['Nunito_Sans']">
-                  +971-52-553-974
+                  +971585814067
                 </span>
               </div>
 

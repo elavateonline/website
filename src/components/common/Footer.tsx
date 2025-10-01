@@ -22,25 +22,25 @@ const Footer = () => {
 
             {/* Address */}
             <p className="text-xs font-normal leading-tight text-left text-white font-['Nunito_Sans'] mt-5">
-              123 Maple Street, Springfield, IL 62704
+              Office #2220, 22 floor , Tower Plaza,  Sheikh Zayed Road, Dubai ,United Arab Emirates
             </p>
 
             {/* Email */}
             <Link 
-              href="mailto:info@elevate-uae.com"
+              href="mailto:info@elevatebusiness360.com"
               className="text-sm font-normal leading-relaxed text-left underline text-gray-400 font-['Nunito_Sans'] mt-5 hover:text-white transition-colors"
             >
-              info@elevate-uae.com
+              info@elevatebusiness360.com
             </Link>
 
             {/* Website */}
             <Link 
-              href="https://www.elevate-uae.com"
+              href="https://www.elevatebusiness360.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-normal leading-relaxed text-left underline text-gray-400 font-['Nunito_Sans'] mt-5 hover:text-white transition-colors"
             >
-              www.elevate-uae.com
+              www.elevatebusiness360.com
             </Link>
 
             {/* Social Media Icons */}
