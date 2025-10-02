@@ -76,7 +76,7 @@ const Header = () => {
               </div> */}
 
               {/* Phone Number */}
-              <div className="flex flex-row justify-center items-center w-full lg:w-auto py-[6px]">
+              <div className="hidden lg:flex flex-row justify-center items-center w-full lg:w-auto py-[6px]">
                 <span className="text-lg font-semibold leading-relaxed text-left text-text-secondary font-['Nunito_Sans']">
                   +971585814067
                 </span>
@@ -94,6 +94,11 @@ const Header = () => {
               </button> */}
             </div>
           </nav>
+          <div className="flex items-center lg:hidden">
+            <span className="text-lg font-semibold leading-relaxed text-left text-text-secondary font-['Nunito_Sans']">
+              +971585814067
+            </span>
+          </div>
         </div>
       </div>
     </header>
