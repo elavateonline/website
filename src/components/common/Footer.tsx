@@ -27,10 +27,10 @@ const Footer = () => {
 
             {/* Phone Number */}
             <Link 
-              href="tel:+971585814067"
+              href="tel:+971557028029"
               className="text-sm font-normal leading-relaxed text-left underline text-gray-400 font-['Nunito_Sans'] mt-5 hover:text-white transition-colors"
             >
-              +971585814067
+              +971557028029
             </Link>
 
             {/* Email */}

@@ -61,7 +61,7 @@ const HeroSection = () => {
           {/* Hero Image */}
           <div className="w-full mb-[78px] relative z-10">
             <Image
-              src="/images/img_szkdohqgtpgwwgi.png"
+              src="/images/hero.png"
               alt="Business Coaching Session"
               width={1200}
               height={472}

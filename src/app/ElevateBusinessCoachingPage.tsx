@@ -10,7 +10,8 @@ import DifferentiatorSection from './DifferentiatorSection';
  import TestimonialSection from'./TestimonialSection';
 import NewsletterSection from './NewsletterSection';
  import Footer from'@/components/common/Footer';
- import Contact from './ContactFormSection'
+ import Contact from './ContactFormSection';
+ import WhatsAppButton from '@/components/common/WhatsAppButton';
 
 const ElevateBusinessCoachingPage = () => {
   return (
@@ -29,6 +30,7 @@ const ElevateBusinessCoachingPage = () => {
       <div className="w-full bg-[#12141d] py-[34px] px-[34px] mt-[-142px]">
         <Footer />
       </div>
+      <WhatsAppButton />
     </main>
   )
 }

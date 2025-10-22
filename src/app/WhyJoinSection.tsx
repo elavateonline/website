@@ -78,7 +78,7 @@ const WhyJoinSection = () => {
           <div className="w-full lg:w-[54%]">
             <div className="relative w-full aspect-[4/3] lg:aspect-[766/602]">
               <Image
-                src="/images/img_video_tkpvgan.png"
+                src="/images/card.png"
                 alt="Why Join Elevate Video"
                 fill
                 className="rounded-2xl object-cover"
