@@ -1,50 +1,112 @@
 'use client';
+import Image from'next/image';
 const DifferentiatorSection = () => {
   return (
     <section className="w-full bg-[#1f2020] py-[32px] sm:py-[10px] relative" id="about-us-section">
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-[60px] justify-start items-center">
           {/* Header Content */}
-          <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1348px] sm:mt-[60px] lg:mt-[144px] gap-8 sm:gap-2 lg:gap-0">
-            <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold leading-[1.25] text-left text-white font-['Nunito_Sans'] w-full lg:w-[34%]">
-              What Makes Elevate Different?
+          <div className="flex flex-col justify-center items-center w-full max-w-[1348px] sm:mt-[60px] lg:mt-[144px] gap-8">
+            <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold leading-[1.25] text-center text-white font-['Nunito_Sans'] w-full">
+              About Us – Meet the Elevate Founders
             </h2>
-            <p className="text-[18px] sm:text-[20px] md:text-[22px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans'] w-full lg:w-[58%] self-end">
-              Unlike traditional training, Elevate is not just about starting a business – it's about aligning your mind, purpose, and energy with your entrepreneurial journey.
+          </div>
+          <div className="w-full lg:w-1/3 flex justify-center items-center">
+                <div className="bg-gray-200 border-2 border-dashed rounded-xl  items-center justify-center text-gray-500">
+                  <Image src="/images/founder.jpeg" alt="founder" width={270} height={270} className="rounded-xl"/>
+                </div>
+              </div>
+
+          {/* Mission Statement */}
+          <div className="flex flex-col gap-6 w-full max-w-[1348px]">
+            <p className="text-[18px] sm:text-[20px] md:text-[22px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+              At Elevate Business 360, we believe true success is not just about building profitable businesses — it's about creating balance, clarity, and purpose along the journey. Our mission is to empower individuals in the UAE to transform ideas into sustainable businesses, while staying rooted in wellness, clarity, and personal growth.
+            </p>
+            <p className="text-[18px] sm:text-[20px] md:text-[22px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+              Together, as founders, we bring a unique blend of business strategy, coaching, and holistic wellness that makes Elevate the first-of-its-kind entrepreneurship accelerator in the UAE.
             </p>
           </div>
 
-          {/* Feature Cards */}
-          <div className="flex flex-col lg:flex-row gap-[20px] w-full max-w-[1348px]">
-            {/* Card 1 */}
-            <div className="flex flex-col gap-[24px] justify-start items-start w-full lg:w-[434px] h-auto p-[24px] bg-gradient-to-b from-[#caae65] to-[#d7c28c] border border-solid border-[#00000033] rounded-[16px]">
-              <div className="w-[48px] h-[48px] bg-black rounded-[24px] flex items-center justify-center">
-                <span className="text-[18px] font-bold leading-[25px] text-white font-['Nunito_Sans']">1</span>
+          {/* Founder Profiles */}
+          <div className="flex flex-col lg:flex-row gap-[40px] w-full max-w-[1348px]">
+            {/* Smitha Ratheesh */}
+            <div className="flex flex-col lg:flex-row gap-[30px] w-full">
+              {/* <div className="w-full lg:w-1/3 flex justify-center items-center">
+                <div className="bg-gray-200 border-2 border-dashed rounded-xl  items-center justify-center text-gray-500">
+                  <Image src="/images/founder.jpeg" alt="founder" width={270} height={270} className="rounded-xl"/>
+                </div>
+              </div> */}
+              <div className="w-full lg:w-2/3 flex flex-col gap-[20px]">
+                <h3 className="text-[24px] sm:text-[28px] font-semibold leading-[1.3] text-left text-[#ceb572] font-['Nunito_Sans']">
+                   Smitha Ratheesh – Success Coach & Holistic Practitioner
+                </h3>
+                <p className="text-[18px] sm:text-[20px] font-medium leading-[1.4] text-left text-white font-['Nunito_Sans']">
+                  Founder | Holistic Wellness & Business Coach | Reiki Master | NLP Practitioner
+                </p>
+                <p className="text-[16px] sm:text-[18px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+                  I am a two-time Guinness World Record holder, award-winning marketing strategist, and internationally certified holistic life coach with over 20 years of experience across FMCG, retail, healthcare, and entrepreneurial ventures in the GCC.
+                </p>
+                <p className="text-[16px] sm:text-[18px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+                  My journey has taken me from homoeopathy and teaching, to banking and marketing, to holistic coaching and entrepreneurship. Along the way, I have faced personal and professional setbacks — and rebuilt myself through mindfulness, meditation, Reiki, NLP, and holistic wellness practices.
+                </p>
+                <p className="text-[16px] sm:text-[18px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+                  Today, I specialize in helping individuals discover their life purpose, build resilience, and align wellness with business success. At Elevate, I lead programs on mindset, resilience, stress management, and holistic growth — ensuring every entrepreneur has the clarity and confidence to thrive.
+                </p>
               </div>
-              <p className="text-[20px] font-medium leading-[26px] text-left text-black font-['Nunito_Sans'] w-full">
-                8 weeks of transformational Sunday workshops
-              </p>
             </div>
 
-            {/* Card 2 */}
-            <div className="flex flex-col gap-[24px] justify-center items-start w-full lg:w-[434px] h-auto p-[24px] pt-[20px] pb-[20px] bg-gradient-to-b from-[#caae65] to-[#d7c28c] border border-solid border-[#00000033] rounded-[16px]">
-              <div className="w-[48px] h-[48px] bg-black rounded-[24px] flex items-center justify-center">
-                <span className="text-[18px] font-bold leading-[25px] text-white font-['Nunito_Sans']">2</span>
+            {/* Shebin Abdulkadar */}
+            <div className="flex flex-col lg:flex-row gap-[30px] w-full">
+              {/* <div className="w-full lg:w-1/3 flex justify-center items-center">
+                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-64 h-64 flex items-center justify-center text-gray-500">
+                  Founder Image
+                </div>
+              </div> */}
+              <div className="w-full lg:w-2/3 flex flex-col gap-[20px]">
+                <h3 className="text-[24px] sm:text-[28px] font-semibold leading-[1.3] text-left text-[#ceb572] font-['Nunito_Sans']">
+                   Shebin Abdulkadar – Business Mentor & Trainer
+                </h3>
+                <p className="text-[18px] sm:text-[20px] font-medium leading-[1.4] text-left text-white font-['Nunito_Sans']">
+                  Entrepreneur | Business Consultant | Mentor | Business Coach
+                </p>
+                <p className="text-[16px] sm:text-[18px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+                  With over 19 years of proven experience in the UAE, I specialize in guiding entrepreneurs from idea to execution. My expertise spans operations, projects, procurement, and administration, giving me a strong foundation to support startups and SMEs in building sustainable ventures.
+                </p>
+                <p className="text-[16px] sm:text-[18px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+                  I am passionate about helping entrepreneurs overcome challenges, optimize operations, and unlock growth opportunities. As a mentor and trainer, he provides practical strategies, structured training, and hands-on tools that enable entrepreneurs to succeed at every stage — from startup launch to scaling.
+                </p>
+                <div className="flex flex-col gap-[10px]">
+                  <h4 className="text-[18px] font-semibold leading-[1.4] text-left text-white font-['Nunito_Sans']">
+                    Credentials & Expertise:
+                  </h4>
+                  <ul className="list-disc list-inside text-[16px] sm:text-[18px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+                    <li>Six Sigma Green Belt (CSSGB)</li>
+                    <li>ISO 9001:2008 Auditor</li>
+                    <li>Certified Professional Purchasing Manager (CPPM)</li>
+                    <li>Trained in Stakeholder Management, PMP, Leadership Development, and Transactional Analysis (TA101)</li>
+                  </ul>
+                </div>
+                <p className="text-[16px] sm:text-[18px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+                  At Elevate, I lead business strategy, operations and scaling modules — giving participants a strong business foundation backed by real-world expertise.
+                </p>
               </div>
-              <p className="text-[20px] font-medium leading-[26px] text-left text-black font-['Nunito_Sans'] w-full">
-                Business skills and holistic wellness along with NLP
-              </p>
             </div>
+          </div>
 
-            {/* Card 3 */}
-            <div className="flex flex-col gap-[24px] justify-start items-start w-full lg:w-[432px] h-auto p-[24px] bg-gradient-to-b from-[#caae65] to-[#d7c28c] border border-solid border-[#00000033] rounded-[10px]">
-              <div className="w-[48px] h-[48px] bg-black rounded-[24px] flex items-center justify-center">
-                <span className="text-[18px] font-bold leading-[25px] text-white font-['Nunito_Sans']">3</span>
-              </div>
-              <p className="text-[20px] font-medium leading-[26px] text-left text-black font-['Nunito_Sans'] w-full">
-                Post-program mentorship & community support
-              </p>
-            </div>
+          {/* Why We Created Elevate */}
+          <div className="flex flex-col gap-[30px] w-full max-w-[1348px]">
+            <h3 className="text-[24px] sm:text-[28px] font-semibold leading-[1.3] text-left text-[#ceb572] font-['Nunito_Sans']">
+               Why We Created Elevate
+            </h3>
+            <p className="text-[18px] sm:text-[20px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+              Elevate was born from our shared vision: to create a space where entrepreneurs can grow both personally and professionally. Unlike traditional business programs, Elevate combines entrepreneurship training + NLP + holistic healing, creating a unique accelerator where participants not only build businesses, but also strengthen their mindset, wellness, and resilience.
+            </p>
+            <p className="text-[18px] sm:text-[20px] font-normal leading-[1.5] text-left text-white font-['Nunito_Sans']">
+              Our mission is simple:
+            </p>
+            <p className="text-[20px] font-semibold leading-[1.5] text-left text-[#ceb572] font-['Nunito_Sans']">
+               To elevate entrepreneurs by aligning business success with personal well-being.
+            </p>
           </div>
 
           {/* Quote */}
